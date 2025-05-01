@@ -1,0 +1,68 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+/* Estilo para la tabla de ventas y el botón de "Concluir Ventas" */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #222;
+}
+
+.table tr:hover {
+    background-color: #333;
+}
+
+/* Estilo para el botón de "Concluir Ventas" */
+.btn-success {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+

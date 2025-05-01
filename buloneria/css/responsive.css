@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Color de fondo */
+    color: #495057; /* Color del texto principal */
+}
+
+.header {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un aspecto elevado */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 40px; /* Ajusta el tamaño según tu necesidad */
+    margin-right: 10px;
+}
+
+.nav-toggle {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    color: #007bff; /* Color de enlaces */
+    text-decoration: none;
+    margin-right: 10px; /* Separación entre enlaces */
+    transition: color 0.3s, background-color 0.3s; /* Transiciones suaves */
+}
+
+.nav a:hover {
+    color: #0056b3; /* Cambio de color al pasar el mouse */
+    background-color: #f8f9fa; /* Color de fondo al pasar el mouse */
+}
+
+.nav a.active {
+    background-color: #0056b3; /* Color de fondo para el botón activo */
+}
+
+.container-main {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.form-register,
+.table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.form-register input,
+.form-register button {
+    margin-bottom: 10px;
+}
+
+.form-register button {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+}
+
+.form-register button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el mouse */
+}
+
+.table th,
+.table td {
+    padding: 12px;
+}
+
+a {
+    color: #007bff; /* Color de enlaces */
+    text-decoration: none;
+    transition: color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+a:hover {
+    color: #0056b3; /* Cambio de color al pasar el mouse */
+}
+
